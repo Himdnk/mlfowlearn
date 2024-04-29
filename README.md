@@ -9,8 +9,8 @@ python script.py
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow
-export MLFLOW_TRACKING_USERNAME=entbappy
-export MLFLOW_TRACKING_PASSWORD=6824692c47a4545eac5b10041d5c8edbcef0
+export MLFLOW_TRACKING_URI=https://dagshub.com/Himdnk/mlfowlearn.mlflow 
+export MLFLOW_TRACKING_USERNAME=Himdnk
+export MLFLOW_TRACKING_PASSWORD=49e00d2e16219842d677af95fb2f0638b5a094bb
 
 ```
