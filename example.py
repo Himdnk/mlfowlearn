@@ -52,6 +52,7 @@ if __name__ == "__main__":
     l1_ratio = float(sys.argv[2]) if len(sys.argv) > 2 else 0.5
 
     with mlflow.start_run():
+        # mlflow.set_experiment("newer 29 april")
         lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=42)
         lr.fit(train_x, train_y)
 
@@ -70,6 +71,7 @@ if __name__ == "__main__":
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
 
+        mlflow.set_tag("mlflow.runName", "Your Run Name")
         remote_server_uri = "https://dagshub.com/Himdnk/mlfowlearn.mlflow"
         mlflow.set_tracking_uri(remote_server_uri)
 
@@ -85,7 +87,7 @@ if __name__ == "__main__":
             # please refer to the doc for more information:
             # https://mlflow.org/docs/latest/model-registry.html#api-workflow
             mlflow.sklearn.log_model(
-                lr, "model", registered_model_name="ElasticnetWineModel"            )
+                lr, "model", registered_model_name="anothermodel"            )
         else:
             mlflow.sklearn.log_model(lr, "model")
 

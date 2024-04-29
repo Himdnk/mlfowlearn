@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/himanshu/aprilsnewstuf/mlflow/29/mlruns/0/6d1e7a539f3c42508d1dfa3f6e7f37a5/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d1e7a539f3c42508d1dfa3f6e7f37a5
+run_name: wistful-finch-342
+run_uuid: 6d1e7a539f3c42508d1dfa3f6e7f37a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714386590224
+status: 1
+tags: []
+user_id: himanshu69
